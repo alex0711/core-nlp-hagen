@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<title>CoreNLP Showcase</title>
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+<!--
+	<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+ 	<script src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+ -->
+
+<link rel="stylesheet" type="text/css"
+	href="/css/fontawesome/css/all.css" />
+
+</head>
+
+<body>
+
+	<script src="/js/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+	<script src="/js/index.js"></script>
+	<script src="/js/sentiment.js"></script>
+	<script src="/js/stockSentiment.js"></script>
+
+
+	<div class="jumbotron">
+		<div class="container">
+			<h2>Natural Language Processing with Stanford CoreNLP</h2>
+		</div>
+	</div>
+
+	<div class="container">
+		<ul class="nav nav-pills nav-fill">
+			<!-- class="nav-link active" um active hervorzuheben -->
+			<li class="nav-item"><a class="nav-link " href="#sentiment"
+				id="sentimentNav">Sentiment Analysis</a></li>
+			<li class="nav-item"><a class="nav-link" href="#stockSentiment"
+				id="stockSentimentNav">Stock Sentiment Analysis</a></li>
+			<li class="nav-item"><a class="nav-link" href="#bot" id="botNav">Bot</a></li>
+		</ul>
+	</div>
+
+	<div class="container" id="content"></div>
+
+</body>
+</html>

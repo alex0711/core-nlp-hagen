@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.hagen.ps.1919.nlp</groupId>
+  <artifactId>test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>test</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+	<dependency>
+	    <groupId>edu.stanford.nlp</groupId>
+	    <artifactId>stanford-corenlp</artifactId>
+	    <version>3.9.1</version>
+	    <scope>system</scope>
+	    <systemPath>C:\Users\Alex\Downloads\JARs\stanford-corenlp-full-2018-02-27\stanford-corenlp-3.9.1.jar</systemPath>
+	</dependency>
+	 
+	<dependency>
+	    <groupId>org.twitter4j</groupId>
+	    <artifactId>twitter4j-core</artifactId>
+	    <version>[3.0,)</version>
+	</dependency>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    	<groupId>com.googlecode.json-simple</groupId>
+    	<artifactId>json-simple</artifactId>
+    	<scope>runtime</scope>
+    	<version>1.1.1</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>javax.json.bind</groupId>
+    	<artifactId>javax.json.bind-api</artifactId>
+    	<version>1.0</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.hibernate.javax.persistence</groupId>
+    	<artifactId>hibernate-jpa-2.1-api</artifactId>
+    	<version>1.0.2.Final</version>
+    </dependency>
+  </dependencies>
+</project>
